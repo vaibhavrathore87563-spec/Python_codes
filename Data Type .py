@@ -48,8 +48,11 @@ x = "100" # int > string cast
 y = 200
 a = 33
 b = float(a) # int convert into float
-
+value = True
+value1 = False
 print(type(x))
 print(type(y))
-print(b)
+print(type(b),b)
+print(type(value),value)
+print(type(value1),value1)
 
